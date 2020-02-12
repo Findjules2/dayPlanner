@@ -41,3 +41,16 @@ $(document).ready(function(){
     $('#timeBlock'+t).addClass('past') 
     }
     });
+
+    // for (var i = 0; i < timeblock.length; i++) {
+    //     console.log(currentHour[i].classList);
+    //     if ('#timeBlock' === currentHour) {
+    //         $('#timeBlock'[i]).addClass("present");
+    //     }
+    //     else if ('#timeBlock' < currentHour) {
+    //         $('#timeBlock'[i]).addClass("past");    
+    //     }
+    //     else if ('#timeBlock' > currentHour) {
+    //         $('#timeBlock'[i]).addClass("future");    
+    //     }
+    // }
